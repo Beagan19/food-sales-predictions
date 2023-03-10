@@ -77,11 +77,11 @@ The Final Model Chosen was a Random Forest Regressor Model with the n_estimators
 
 For the testing set on the model, 60.26% of the variance in y was explained by x.
 
-The Mean Absolute Error was off by about $728.35
+The Mean Absolute Error was off by about ₹728.35
 
-The Mean Squared Error was $1,096,354.02.
+The Mean Squared Error was ₹1,096,354.02.
 
-The Root Mean Squared Error had a calculation of $1,047.07.
+The Root Mean Squared Error had a calculation of ₹1,047.07.
 
 Using this model to make predictions about item outlet sales would not be a very reliable. Considering the previous regression metrics from how the model performed, there is a disparity between the R^2 score and also the Root Mean Squared Error that cannot be ignored.
 
