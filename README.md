@@ -66,9 +66,9 @@ There is a moderate positive correlation between item maximum retail price and i
 </p>
 
 - Top 3 Postive Coefficients:
- - Outlet Identifier OUT010
- - Outlet Identifier OUT018
- - Outlet Identifier OUT027
+    - Outlet Identifier OUT010
+    - Outlet Identifier OUT018
+    - Outlet Identifier OUT027
  
 - Top 3 Negative Coefficients:
     - Outlet Type Grocery Store
