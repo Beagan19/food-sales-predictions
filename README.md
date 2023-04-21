@@ -52,6 +52,7 @@ Based on three different outlet parameters, medium outlet size, supermarket type
 
 There is a moderate positive correlation between item maximum retail price and item outlet sales.
 
+
 ## Models Evaluated & Results
 
 - Linear Regression Model (Testing Set):
@@ -59,7 +60,22 @@ There is a moderate positive correlation between item maximum retail price and i
   - MSE: 1,194,345.9381 
   - RMSE: 1,092.8614 
   - R2: 0.5671
+  
+<p align = "center"> 
+  <img src = "https://github.com/Beagan19/food-sales-predictions/blob/main/Top%2015%20Coefficients.png">
+</p>
 
+- Top 3 Postive Coefficients:
+ - Outlet Identifier OUT010
+ - Outlet Identifier OUT018
+ - Outlet Identifier OUT027
+ 
+- Top 3 Negative Coefficients:
+    - Outlet Type Grocery Store
+    - Outlet Identifier OUT046
+    - Outlet Location Type Tier 3
+    
+    
 - Random Forest Regressor Model (Testing Set):
   - MAE: 773.6878 
   - MSE: 1,241,023.4240 
@@ -71,6 +87,34 @@ There is a moderate positive correlation between item maximum retail price and i
   - MSE: 1,096,354.0177 
   - RMSE: 1,047.0693 
   - R2: 0.6026
+  
+<p align = "center"> 
+  <img src = "https://github.com/Beagan19/food-sales-predictions/blob/main/Feature_Importance_Decision_Tree_Regressor.png">
+</p>
+
+- Top 5 Important Features (used repeatedly by the model during the training process and does not indicate positive or negative impact)
+    - Item MRP
+    - Outlet Type Grocery Store
+    - Item Visibility
+    - Outet Identifier OUT027
+    - Item Weight
+
+<p align = "center"> 
+  <img src = "https://github.com/Beagan19/food-sales-predictions/blob/main/Top%2015%20Coefficients.png">
+</p>
+
+
+<p align = "center"> 
+  <img src = "https://github.com/Beagan19/food-sales-predictions/blob/main/Top%2015%20Coefficients.png">
+</p>
+
+
+<p align = "center"> 
+  <img src = "https://github.com/Beagan19/food-sales-predictions/blob/main/Top%2015%20Coefficients.png">
+</p>
+
+
+
 
 
 The Final Model Chosen was a Random Forest Regressor Model with the n_estimators tuned to 5.
